@@ -24,10 +24,10 @@ while true do
   gets.chomp
 
   if player_1_wins == 2
-    puts "player1 wins #{player_1_wins} : #{player_2_wins}"
+    puts "player1 wins! #{player_1_wins} : #{player_2_wins}"
     break
   end
   if player_2_wins == 2
-    puts "player3 wins! #{player_2_wins} : #{player_1_wins}"
+    puts "player2 wins! #{player_2_wins} : #{player_1_wins}"
   end
 end
